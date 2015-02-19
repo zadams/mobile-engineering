@@ -10,7 +10,7 @@ To better assess a candidate's development skills, we would like to provide the 
 
 1. Clone the repository
 1. Next, complete your project as described below within your local repository
-1. Email a patch file to the appropriate address listed above ([data.challenge@livingsocial.com](mailto:data.challenge@livingsocial.com)).
+1. Email a patch file to ([dev.challenge@livingsocial.com](mailto:dev.challenge@livingsocial.com)) and cc your recruiter.
 
 ## Project Description
 
