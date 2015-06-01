@@ -5,6 +5,9 @@
       location = "group:README.md">
    </FileRef>
    <FileRef
+      location = "group:../Podfile">
+   </FileRef>
+   <FileRef
       location = "self:livingsocial.xcodeproj">
    </FileRef>
 </Workspace>
