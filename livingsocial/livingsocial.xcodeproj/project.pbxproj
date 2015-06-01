@@ -14,6 +14,9 @@
 		0D29D7091B1C8A13005F014B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D29D7081B1C8A13005F014B /* Images.xcassets */; };
 		0D29D70C1B1C8A13005F014B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D29D70A1B1C8A13005F014B /* LaunchScreen.xib */; };
 		0D29D7181B1C8A13005F014B /* livingsocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D29D7171B1C8A13005F014B /* livingsocialTests.m */; };
+		0D29D7231B1C927D005F014B /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D29D7221B1C927D005F014B /* MainTableViewController.m */; };
+		0D29D7261B1C9F3A005F014B /* NSDictionary+merchant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D29D7251B1C9F3A005F014B /* NSDictionary+merchant.m */; };
+		2DD5688DFFA8923E601E8A2E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0366977054FA9CF082307FF8 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0366977054FA9CF082307FF8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D29D6F81B1C8A13005F014B /* livingsocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = livingsocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D29D6FC1B1C8A13005F014B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D29D6FD1B1C8A13005F014B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,12 @@
 		0D29D7111B1C8A13005F014B /* livingsocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = livingsocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D29D7161B1C8A13005F014B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D29D7171B1C8A13005F014B /* livingsocialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = livingsocialTests.m; sourceTree = "<group>"; };
+		0D29D7211B1C927D005F014B /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		0D29D7221B1C927D005F014B /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		0D29D7241B1C9F3A005F014B /* NSDictionary+merchant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+merchant.h"; sourceTree = "<group>"; };
+		0D29D7251B1C9F3A005F014B /* NSDictionary+merchant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+merchant.m"; sourceTree = "<group>"; };
+		CB4BF747D51B3CF9407594F7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D3C4D420BE12B39216907B0E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD5688DFFA8923E601E8A2E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +77,8 @@
 				0D29D6FA1B1C8A13005F014B /* livingsocial */,
 				0D29D7141B1C8A13005F014B /* livingsocialTests */,
 				0D29D6F91B1C8A13005F014B /* Products */,
+				CAF84C5CC7C2DE90BBC9E376 /* Pods */,
+				5663DBE9F2AA92FCEDB8BD74 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +98,10 @@
 				0D29D7001B1C8A13005F014B /* AppDelegate.m */,
 				0D29D7021B1C8A13005F014B /* ViewController.h */,
 				0D29D7031B1C8A13005F014B /* ViewController.m */,
+				0D29D7211B1C927D005F014B /* MainTableViewController.h */,
+				0D29D7221B1C927D005F014B /* MainTableViewController.m */,
+				0D29D7241B1C9F3A005F014B /* NSDictionary+merchant.h */,
+				0D29D7251B1C9F3A005F014B /* NSDictionary+merchant.m */,
 				0D29D7051B1C8A13005F014B /* Main.storyboard */,
 				0D29D7081B1C8A13005F014B /* Images.xcassets */,
 				0D29D70A1B1C8A13005F014B /* LaunchScreen.xib */,
@@ -119,6 +136,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5663DBE9F2AA92FCEDB8BD74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0366977054FA9CF082307FF8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF84C5CC7C2DE90BBC9E376 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3C4D420BE12B39216907B0E /* Pods.debug.xcconfig */,
+				CB4BF747D51B3CF9407594F7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D29D71B1B1C8A13005F014B /* Build configuration list for PBXNativeTarget "livingsocial" */;
 			buildPhases = (
+				FE47FBB580095D07F1EE34B5 /* Check Pods Manifest.lock */,
 				0D29D6F41B1C8A13005F014B /* Sources */,
 				0D29D6F51B1C8A13005F014B /* Frameworks */,
 				0D29D6F61B1C8A13005F014B /* Resources */,
+				D277D8790169248B7B33C766 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,11 +250,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D277D8790169248B7B33C766 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE47FBB580095D07F1EE34B5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D29D6F41B1C8A13005F014B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D29D7231B1C927D005F014B /* MainTableViewController.m in Sources */,
+				0D29D7261B1C9F3A005F014B /* NSDictionary+merchant.m in Sources */,
 				0D29D7041B1C8A13005F014B /* ViewController.m in Sources */,
 				0D29D7011B1C8A13005F014B /* AppDelegate.m in Sources */,
 				0D29D6FE1B1C8A13005F014B /* main.m in Sources */,
@@ -345,6 +416,7 @@
 		};
 		0D29D71C1B1C8A13005F014B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C4D420BE12B39216907B0E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = livingsocial/Info.plist;
@@ -355,6 +427,7 @@
 		};
 		0D29D71D1B1C8A13005F014B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4BF747D51B3CF9407594F7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = livingsocial/Info.plist;
@@ -416,6 +489,7 @@
 				0D29D71D1B1C8A13005F014B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D29D71E1B1C8A13005F014B /* Build configuration list for PBXNativeTarget "livingsocialTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +498,7 @@
 				0D29D7201B1C8A13005F014B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
