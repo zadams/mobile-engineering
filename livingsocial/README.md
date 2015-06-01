@@ -7,7 +7,7 @@ To set up the app make sure to open in XCode the file named livingsocial.xcworks
 
 Once the workspace is open, you can compile the giving project either using the simulator or a testing device, in any case select a device of your preferences in the only scheme available and click the play symbol on the top left area of XCode, or just run the project using the shortcut command-R.
 
-An App named "livingsocial" will appear on the main area of the selected device to run the app. once its open make sure to click Load JSON from the navigation area in order to populate the content and test different features of the app.
+An App named "livingsocial" will appear on the main area of the selected device. Open the app and make sure to click Load JSON from the navigation area in order to populate the content and test different features of the app.
 
 ### 3rd Party Libraries
 
