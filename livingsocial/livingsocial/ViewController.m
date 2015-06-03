@@ -47,7 +47,7 @@
   [self.descriptionMerchant sizeToFit];
   
   NSURLRequest *request = [NSURLRequest requestWithURL:[self.merchant merchantImageURL]];
-  UIImage *placeholderImage = [UIImage imageWithContentsOfFile:@"Placeholder"];
+  UIImage *placeholderImage = [UIImage imageNamed:@"Placeholder"];
   
   __weak UIImageView *weakImageMerchant = self.imageMerchant;
   

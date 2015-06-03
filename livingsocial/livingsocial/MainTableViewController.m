@@ -169,7 +169,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
 - (IBAction)clear:(id)sender
 {
-  self.title = @"";
+  //self.title = @"";
   self.merchants = nil;
   [self.tableView reloadData];
 }
