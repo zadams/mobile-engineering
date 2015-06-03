@@ -44,4 +44,4 @@ Evaluation of your submission will be based on the following criteria. Additiona
 
 ## Andres Cano Test Submission Notes:
 
-For instruction about how to setup and install the app, please read the README file in the livingsocial folder of this fork. Thanks!
+For instructions about how to setup and install the app, please read the README file in the livingsocial folder of this fork. Thanks!
