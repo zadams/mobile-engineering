@@ -66,7 +66,7 @@
   // so that the views autoresizing mask is not translated into auto layout constraints.
   
   //self.scrollView.translatesAutoresizingMaskIntoConstraints  = NO;
-  self.contentView.translatesAutoresizingMaskIntoConstraints = NO;
+  //self.contentView.translatesAutoresizingMaskIntoConstraints = NO;
   
   
   NSLayoutConstraint *leftConstraint = [NSLayoutConstraint constraintWithItem:self.contentView
@@ -86,15 +86,6 @@
                                                                     multiplier:1.0
                                                                       constant:0];
   [self.view addConstraint:rightConstraint];
-  
-  NSLayoutConstraint *bottomConstraint = [NSLayoutConstraint constraintWithItem:self.contentView
-                                                                     attribute:NSLayoutAttributeBottomMargin
-                                                                     relatedBy:0
-                                                                        toItem:self.view
-                                                                     attribute:NSLayoutAttributeBottomMargin
-                                                                    multiplier:1.0
-                                                                      constant:0];
-  [self.view addConstraint:bottomConstraint];
   
 }
 

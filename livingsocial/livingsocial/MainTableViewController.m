@@ -31,6 +31,9 @@ static NSString * const BaseURLString = @"http://sheltered-bastion-2512.herokuap
 - (void)viewDidLoad {
   
   [super viewDidLoad];
+  
+  // load JSON as soon as view is initialized
+  [self loadJSONTapped:nil];
 
 }
 
@@ -136,9 +139,17 @@ static NSString * const BaseURLString = @"http://sheltered-bastion-2512.herokuap
 - (void)tableView:(UITableView *)tableView
 didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
   
-  self.selectedMerchant = [self.merchants objectAtIndex:indexPath.row];
+  if (tableView == self.tableView) {
   
-  [self performSegueWithIdentifier:@"showDetailProductMerchant" sender:self];
+    self.selectedMerchant = [self.merchants objectAtIndex:indexPath.row];
+    
+  } else {
+    
+    self.selectedMerchant = [self.filteredMerchants objectAtIndex:indexPath.row];
+    
+  }
+  
+    [self performSegueWithIdentifier:@"showDetailProductMerchant" sender:self];
   
 }
 
@@ -183,9 +194,9 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
   } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
     
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error Retrieving Merchant Data"
-                                                        message:[NSString stringWithFormat:@"%@ - %@",
+                                                        message:[NSString stringWithFormat:@"%@ - \n%@",
                                                                  [error localizedDescription],
-                                                                 @"Please Try to Load JSON Again!"]
+                                                                 @"Please Try Reload Again!"]
                                                        delegate:nil
                                               cancelButtonTitle:@"Ok"
                                               otherButtonTitles:nil];
@@ -201,7 +212,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
 - (void)parseJSON:(id)JSON {
   self.merchants = (NSArray *)JSON;
-  self.title = @"JSON Retrieved";
+  //self.title = @"Loaded!";
 }
 
 
