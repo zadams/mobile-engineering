@@ -41,7 +41,3 @@ Evaluation of your submission will be based on the following criteria. Additiona
 
 1. Did your application fulfill the requirements?
 1. Did you follow the instructions for submission?
-
-## Andres Cano Test Submission Notes:
-
-For instructions about how to setup and install the app, please read the README file in the livingsocial folder of this fork. Thanks!
